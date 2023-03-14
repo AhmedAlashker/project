@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { auth } from "../../middleware/auth.js";
-import * as User_Controller from "../User/controller/user.js";
+import * as User_Controller from "../user/controller/user.js";
 import { endPoint } from "./user.endPoint.js";
 
 
